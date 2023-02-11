@@ -16,10 +16,10 @@ public class P13Mock {
     private DDAInter theDDA;
     private P13Tier currLayer;
     
-    public P13Mock(){
-        this.gameData = new P13Data(3);
-        this.currLayer = new P13Tier(3);
-        this.theDDA = new DumbDDA();
+    public P13Mock(int tierCount, DDAInter theDDA){
+        this.gameData = new P13Data(tierCount);
+        this.currLayer = new P13Tier(tierCount);
+        this.theDDA = theDDA;
     }
 
     private String getConsoleInput(String text){
