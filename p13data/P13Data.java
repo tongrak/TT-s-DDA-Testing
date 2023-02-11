@@ -9,16 +9,9 @@ public class P13Data {
     public int getTierCount() {
         return tierCount;
     }
-    // private boolean tierExisted(boolean errable,int reqT) {
-    //     boolean result = reqT < 0 || reqT > (tierCount-1);
-    //     if(errable && result) 
-    //         throw new RuntimeException(reqT+" is out of tier range");
-    //     return result;
-    // }
+    
     public Pair<Integer,Integer> getDataInTier(int reqT){
-        // if(tierExisted(true, reqT)) 
-            return this.dataList.get(reqT);
-        // else return null;
+        return this.dataList.get(reqT);
     }
     public void updateData(int reqT, boolean isCorrect){
         Pair<Integer, Integer> pastData = this.getDataInTier(reqT);
