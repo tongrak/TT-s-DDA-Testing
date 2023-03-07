@@ -1,51 +1,56 @@
-Gametype    PerformMin    PerformMean    PerformMax    PerformStd    Mood
-gametype3    min -1<->0    mean -0.5<->1    max 1->    std 0<->1    stressed    
-gametype2    min <--1    mean <--0.5    max 0<->1    std 0<->1    stressed    
-gametype1    min <--1    mean <--0.5    max <-0    std 0<->1    stressed    
-gametype2    min 0->    mean 1->    max 1->    std 0<->1    bored    
-gametype1    min <--1    mean <--0.5    max 0<->1    std 0<->1    stressed    
-gametype3    min <--1    mean -0.5<->1    max 0<->1    std 0<->1    fine    
-gametype3    min 0->    mean 1->    max 1->    std 1->    bored    
-gametype3    min 0->    mean 1->    max 1->    std 0<->1    bored    
-gametype2    min <--1    mean <--0.5    max 0<->1    std 1->    stressed    
-gametype3    min <--1    mean -0.5<->1    max 1->    std 0<->1    stressed    
-gametype2    min <--1    mean <--0.5    max 0<->1    std 0<->1    stressed    
-gametype3    min <--1    mean <--0.5    max <-0    std 1->    stressed    
-gametype1    min 0->    mean 1->    max 1->    std 1->    fine    
-gametype3    min <--1    mean <--0.5    max 0<->1    std 0<->1    stressed    
-gametype2    min <--1    mean <--0.5    max 0<->1    std 0<->1    stressed    
-gametype2    min <--1    mean -0.5<->1    max 1->    std 1->    bored    
-gametype2    min <--1    mean <--0.5    max <-0    std 0<->1    stressed    
-gametype2    min <--1    mean <--0.5    max <-0    std 1->    stressed    
-gametype1    min <--1    mean -0.5<->1    max 1->    std 1->    bored    
-gametype3    min <--1    mean -0.5<->1    max 1->    std 0<->1    stressed    
-gametype3    min 0->    mean 1->    max 1->    std 1->    bored    
-gametype2    min <--1    mean <--0.5    max 0<->1    std 0<->1    fine    
-gametype2    min -1<->0    mean 1->    max 1->    std 0<->1    fine    
-gametype1    min -1<->0    mean 1->    max 1->    std 1->    bored    
-gametype1    min <--1    mean -0.5<->1    max 1->    std 1->    stressed    
-gametype3    min 0->    mean -0.5<->1    max 1->    std 0<->1    fine    
-gametype3    min <--1    mean <--0.5    max 0<->1    std 0<->1    fine    
-gametype1    min -1<->0    mean -0.5<->1    max 1->    std 0<->1    fine    
-gametype1    min <--1    mean -0.5<->1    max 1->    std 1->    fine    
-gametype3    min <--1    mean <--0.5    max 0<->1    std 0<->1    fine    
-gametype2    min <--1    mean -0.5<->1    max 1->    std 1->    stressed    
-gametype1    min <--1    mean <--0.5    max 0<->1    std 1->    stressed    
-gametype2    min <--1    mean <--0.5    max 0<->1    std 0<->1    fine    
-gametype1    min 0->    mean 1->    max 1->    std 1->    bored    
-gametype2    min -1<->0    mean -0.5<->1    max 1->    std 0<->1    fine    
-gametype2    min <--1    mean -0.5<->1    max 1->    std 0<->1    bored    
-gametype3    min <--1    mean -0.5<->1    max 1->    std 0<->1    fine    
-gametype2    min <--1    mean <--0.5    max 0<->1    std 0<->1    fine    
-gametype2    min 0->    mean 1->    max 1->    std 0<->1    bored    
-gametype3    min -1<->0    mean -0.5<->1    max 1->    std 0<->1    stressed    
-gametype2    min -1<->0    mean -0.5<->1    max 1->    std 0<->1    bored    
-gametype2    min -1<->0    mean -0.5<->1    max 1->    std 0<->1    bored    
-gametype2    min <--1    mean <--0.5    max 0<->1    std 0<->1    fine    
-gametype2    min <--1    mean <--0.5    max <-0    std 1->    fine    
-gametype1    min <--1    mean <--0.5    max 0<->1    std 1->    stressed    
-gametype2    min <--1    mean -0.5<->1    max 1->    std 0<->1    fine    
-gametype3    min -1<->0    mean -0.5<->1    max 1->    std 0<->1    stressed    
-gametype3    min -1<->0    mean -0.5<->1    max 1->    std 0<->1    fine    
-gametype1    min <--1    mean -0.5<->1    max 1->    std 1->    bored    
-gametype2    min <--1    mean <--0.5    max 0<->1    std 0<->1    stressed    
+Gametype    PerformMin    PerformMean    PerformMax    PerformStd    Mood 
+gametype3    min_<--0.5    mean_<--0.5    max_0.5->    std_0.25<->1    stressed    
+gametype2    min_-0.5<->0    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    fine    
+gametype1    min_-0.5<->0    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    bored    
+gametype2    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_1->    stressed    
+gametype3    min_-0.5<->0    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype2    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype1    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    stressed    
+gametype2    min_-0.5<->0    mean_0.5->    max_0.5->    std_0.25<->1    fine    
+gametype2    min_-0.5<->0    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    bored    
+gametype1    min_<--0.5    mean_<--0.5    max_0.5->    std_0.25<->1    stressed    
+gametype3    min_<--0.5    mean_<--0.5    max_0<->0.5    std_0.25<->1    stressed    
+gametype3    min_<--0.5    mean_<--0.5    max_0.5->    std_0.25<->1    stressed    
+gametype3    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype1    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    bored    
+gametype1    min_<--0.5    mean_<--0.5    max_0.5->    std_0.25<->1    stressed    
+gametype2    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    bored    
+gametype1    min_<--0.5    mean_<--0.5    max_<-0    std_0.25<->1    stressed    
+gametype3    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype1    min_<--0.5    mean_<--0.5    max_<-0    std_0.25<->1    stressed    
+gametype1    min_<--0.5    mean_0.5->    max_0.5->    std_1->    bored    
+gametype1    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    bored    
+gametype3    min_<--0.5    mean_<--0.5    max_<-0    std_1->    stressed    
+gametype3    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    bored    
+gametype1    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    bored    
+gametype1    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    bored    
+gametype1    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype1    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype2    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    fine    
+gametype1    min_<--0.5    mean_-0.5<->0.5    max_0<->0.5    std_0.25<->1    stressed    
+gametype2    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    fine    
+gametype3    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    bored    
+gametype1    min_<--0.5    mean_<--0.5    max_0<->0.5    std_0.25<->1    stressed    
+gametype2    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    fine    
+gametype3    min_<--0.5    mean_<--0.5    max_<-0    std_0.25<->1    stressed    
+gametype2    min_<--0.5    mean_<--0.5    max_<-0    std_0.25<->1    stressed    
+gametype3    min_<--0.5    mean_<--0.5    max_<-0    std_0.25<->1    stressed    
+gametype2    min_-0.5<->0    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    fine    
+gametype2    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype1    min_<--0.5    mean_<--0.5    max_0.5->    std_0.25<->1    stressed    
+gametype1    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype2    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    bored    
+gametype2    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype3    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype1    min_-0.5<->0    mean_0.5->    max_0.5->    std_0.25<->1    bored    
+gametype1    min_<--0.5    mean_<--0.5    max_0.5->    std_1->    stressed    
+gametype2    min_-0.5<->0    mean_0.5->    max_0.5->    std_0.25<->1    bored    
+gametype3    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    stressed    
+gametype2    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    fine    
+gametype3    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    fine    
+gametype3    min_<--0.5    mean_<--0.5    max_<-0    std_0.25<->1    stressed    
+gametype3    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    fine    
+gametype3    min_<--0.5    mean_-0.5<->0.5    max_0.5->    std_0.25<->1    fine    
+gametype2    min_0->    mean_0.5->    max_0.5->    std_0.25<->1    fine    
+gametype3    min_0->    mean_0.5->    max_0.5->    std_1->    bored    
+gametype1    min_<--0.5    mean_<--0.5    max_0<->0.5    std_0.25<->1    fine    
